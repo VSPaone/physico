@@ -1,0 +1,35 @@
+{
+  "name": "physico",
+  "version": "1.0.0",
+  "description": "A dynamic and customizable physics engine for React with support for sprites.",
+  "main": "dist/index.js",
+  "module": "src/PhysicsEngine.js",
+  "types": "src/PhysicsEngine.d.ts",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --mode development --open",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VSPaone/physico"
+  },
+  "keywords": ["react", "physics", "engine", "sprites", "animation", "npm-package"],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0",
+    "babel-loader": "^8.2.3",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "prop-types": "^15.7.2"
+  },
+  "dependencies": {}
+}
